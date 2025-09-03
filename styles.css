@@ -94,6 +94,8 @@ header {
   color: var(--white);
   text-align: center;
   padding: 1rem;
+  max-width: 450px;
+  margin: 0rem auto;
 }
 
 
@@ -106,6 +108,8 @@ header p {
 nav {
   background-color: var(--yellow);
   padding: 1rem;
+  max-width: 450px;
+  margin: 0rem auto;
 }
 
 
@@ -115,7 +119,7 @@ nav ul {
 
 
 nav li {
-  margin: 0.5rem 0;
+  margin: 1rem 0;
 }
 
 
@@ -140,10 +144,9 @@ nav a:hover {
 /* Sections */
 section {
   background-color: var(--purple);
-  margin: 1rem auto;
+  margin: 0rem auto;
   padding: 1rem;
-  border-radius: 10px;
-  max-width: 500px;
+  max-width: 450px;
 }
 
 
@@ -232,6 +235,8 @@ footer {
   padding: 1rem;
   background-color: var(--purple);
   color: var(--white);
+  max-width: 450px;
+  margin: 0rem auto;
 }
 
 
@@ -264,19 +269,19 @@ text-align: center;
 color: var(--dark-gray);
 box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 min-height: 110px;
-display: grid; 
+display: grid;
 place-items: center;
 }
 
-#why-choose-us li:nth-child(1) { 
+#why-choose-us li:nth-child(1) {
 background: var(--teal);
 }
-#why-choose-us li:nth-child(2) { 
+#why-choose-us li:nth-child(2) {
 background: var(--lavender);
 }
-#why-choose-us li:nth-child(3) { 
+#why-choose-us li:nth-child(3) {
 background: var(--yellow);
 }
-#why-choose-us li:nth-child(4) { 
+#why-choose-us li:nth-child(4) {
 background: var(--white);
 }
